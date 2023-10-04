@@ -1,0 +1,18 @@
+.scroll-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  background-color: transparent;
+  transition: color 0.3s;
+  color: var(--clr-primary);
+}
+
+.scroll-top:hover { 
+  transform: scale(1.1)
+}
+
+@media (max-width: 900px) {
+  .scroll-top {
+    display: none;
+  }
+}
