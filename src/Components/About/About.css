@@ -26,6 +26,7 @@
 
 .about .link--icon {
   margin-right: 0.8em;
+  color: var(--clr-primary);
 }
 
 .about .btn--outline {
