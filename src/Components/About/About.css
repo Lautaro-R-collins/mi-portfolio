@@ -49,7 +49,7 @@
 
 @media (max-width: 600px) {
   .mobileHead{
-    align-content: center;
+    text-align: center;
   }
   .app .about {
     align-items: flex-start;

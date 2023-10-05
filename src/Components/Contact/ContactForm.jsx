@@ -16,17 +16,12 @@ const ContactForm = () => {
     });
   };
 
-  // Función para manejar el envío del formulario
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aquí puedes manejar el envío del formulario, por ejemplo, enviar los datos a un servidor o realizar alguna acción.
-    console.log(formData); // Solo imprime los datos en la consola por ahora
-  };
 
+  //action="https://formspree.io/f/xbjvppwk" method="POST"
   return (
     <div className="contact-form">
       <h2>Hablemos!</h2>
-      <form onSubmit={handleSubmit} action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST">
+      <form  action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST">
         <div className="form-group">
           <label htmlFor="name">Nombre :</label>
           <input
@@ -63,7 +58,10 @@ const ContactForm = () => {
             placeholder="Ingrese su mensaje...*" 
           ></textarea>
         </div>
-        <button name="submit" type="submit">Enviar Mensaje</button>
+        <button type="submit">Enviar Mensaje</button>
+        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/#contact" ></input>
+        <input type="hidden" name="_captcha" value="false" ></input>
+
       </form>
     </div>
   );
