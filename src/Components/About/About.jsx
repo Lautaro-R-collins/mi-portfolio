@@ -25,6 +25,15 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
+            href="https://www.linkedin.com/in/lautaro-rodr%C3%ADguez-collins-40505624a/"
+            aria-label="linkedin"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
             href="https://github.com/Lautaro-R-collins"
             aria-label="github"
             target="_blank"
@@ -32,6 +41,24 @@ export const About = () => {
             className="link link--icon"
           >
             <GitHubIcon />
+          </a>
+          <a
+            href="https://instagram.com/lautaro.develops?igshid=OGQ5ZDc2ODK2ZA=="
+            aria-label="instagram"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <InstagramIcon />
+          </a>
+          <a
+            href="https://twitter.com/Lautarodevelops"
+            aria-label="twitter"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TwitterIcon />
           </a>
           <a
             href="mailto:lautarodevelops@gmail.com"
@@ -50,33 +77,6 @@ export const About = () => {
             className="link link--icon"
           >
             <PhoneIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/lautaro-rodr%C3%ADguez-collins-40505624a/"
-            aria-label="linkedin"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedInIcon />
-          </a>
-          <a
-            href="https://twitter.com/Lautarodevelops"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
-          <a
-            href="https://instagram.com/lautaro.develops?igshid=OGQ5ZDc2ODK2ZA=="
-            aria-label="instagram"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InstagramIcon />
           </a>
         </div>
 

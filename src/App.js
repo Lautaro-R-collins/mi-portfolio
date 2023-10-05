@@ -5,6 +5,7 @@ import { ThemeContext } from "./Context/theme";
 import { About } from "./Components/About/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Projects } from "./Components/Projects/Projects";
 // import { Techstacks } from "./Components/About/Techstacks";
 import { Github } from "./Components/About/Github";
 
@@ -25,7 +26,7 @@ export default function App() {
         <About />
         <Github />
         <section id="#projects">
-  
+          <Projects />
         </section>
         <section id="#contact">
           <Contact />

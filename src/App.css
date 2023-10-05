@@ -7,11 +7,11 @@
 }
 
 .light {
-  --clr-bg: #f1f1eb;
-  --clr-bg-alt: #ffffffde;
+  --clr-bg: #ffffff;
+  --clr-bg-alt: #ffffff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary:  #2d4094;
+  --clr-primary:  #272270;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
