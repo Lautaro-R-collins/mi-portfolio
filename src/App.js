@@ -6,7 +6,6 @@ import { About } from "./Components/About/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Projects } from "./Components/Projects/Projects";
-// import { Techstacks } from "./Components/About/Techstacks";
 import { Github } from "./Components/About/Github";
 
 import { Contact } from "./Components/Contact/Contact";

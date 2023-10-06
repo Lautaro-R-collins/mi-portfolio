@@ -5,13 +5,13 @@ import {
   SiHtml5,
   SiGit,
   SiExpress,
-
+  SiVuedotjs,
 
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
+import { BsBootstrap } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
@@ -36,6 +36,14 @@ export const Techstacks = () => {
             <h5>React</h5>
           </div>
           <div>
+            <SiVuedotjs />
+            <h5>Vue</h5>
+          </div>
+          <div>
+            <BsBootstrap />
+            <h5>Bootstrap</h5>
+          </div>
+          <div>
             <FaNodeJs />
             <h5>Node.js</h5>
           </div>
@@ -50,14 +58,6 @@ export const Techstacks = () => {
           <div>
             <FaAws />
             <h5>AWS</h5>
-          </div>
-          <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
-          </div>
-          <div>
-            <BsWordpress />
-            <h5>Wordpress</h5>
           </div>
           <div>
             <SiGit />

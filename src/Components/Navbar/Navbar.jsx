@@ -26,15 +26,6 @@ export const Navbar = () => {
         >
           <li className="nav__list-item">
             <a
-              href="#home"
-              onClick={() => toggleNavList("#home")}
-              className="link link--nav"
-            >
-              Inicio
-            </a>
-          </li>
-          <li className="nav__list-item">
-            <a
               href="#about"
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
