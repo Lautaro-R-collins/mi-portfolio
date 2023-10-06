@@ -38,16 +38,16 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Pixel Art</h2>
                 <p>
-                  Aplicacion Web para crear Pixel Art.
+                  Aplicacion Web para crear Pixel Art donde puedes modificar el tamaño del pixel
                 </p>
                 <div>
+                  <SiHtml5 />
                   <DiCss3 />
-                  <IoLogoJavascript />
-                  <SiHtml5  />
+                  <IoLogoJavascript />                 
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://lautaro-r-collins.github.io/Pixel-Art/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,7 +56,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
+                    href="https://github.com/Lautaro-R-collins/Pixel-Art.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -68,45 +68,46 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
+                    src="https://pbs.twimg.com/media/F7ucsbdXEAAguxw?format=jpg&name=small"
                     alt="Sk-Weather-App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Encuestas</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                  Generador de encuestas online
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <SiMongodb />
+                  <SiExpress />
+                  <FaReact />
+                  <SiNodedotjs />
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="asd"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      See this Live
+                      Vista previa
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/Lautaro-R-collins/encuesta-backend.git"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      View Code
+                      Ver codigo
                     </span>
                   </a>
                 </div>
@@ -114,68 +115,66 @@ export const Projects = () => {
             </div>
           </div>
 
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
+                    src="https://pbs.twimg.com/media/F7umYT3WEAAFEbP?format=jpg&name=small"
                     alt="Uniqlo-Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>Sing up Padify</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                  Formulario de registro responsive Frontend echo con HTML, CSS y JS.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
                   <SiHtml5 />
                   <DiCss3 />
+                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://lautaro-r-collins.github.io/Sing-up/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                      Vista previa
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/Lautaro-R-collins/Sing-up.git"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      View Code
+                      Ver codigo
                     </span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
+
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
+                    src="https://pbs.twimg.com/media/F7uprIBWkAEnmbZ?format=jpg&name=small"
                     alt="PulsePlus-Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>PulsePlus Clone</h2>
+                <h2>Pierdra papel y tijeras</h2>
                 <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
+                  EL juego clasico piedras papel y tijeras echo con JS
                 </p>
                 <div>
                   <DiCss3 />
@@ -184,21 +183,21 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
+                    href="https://lautaro-r-collins.github.io/odin-Rock-Paper-Scissors/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                      Vista previa
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                    href="https://github.com/Lautaro-R-collins/odin-Rock-Paper-Scissors.git"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      View Code
+                      Ver codigo
                     </span>
                   </a>
                 </div>               
