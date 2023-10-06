@@ -58,7 +58,7 @@ export const Footer = () => {
             </span>{" "}
             con ayuda de{" "}
             <span role="img" aria-label="Café">
-              ☕
+              ☕ y 🧉
             </span>{" "}
             © 2023 Lautaro Rodriguez Collins. 
           </p>
