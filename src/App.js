@@ -6,8 +6,6 @@ import { About } from "./Components/About/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Projects } from "./Components/Projects/Projects";
-import { Github } from "./Components/About/Github";
-
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
@@ -23,7 +21,6 @@ export default function App() {
       </section>
       <main>
         <About />
-        <Github />
         <section id="#projects">
           <Projects />
         </section>

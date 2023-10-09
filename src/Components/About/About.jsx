@@ -7,7 +7,6 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
-
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";

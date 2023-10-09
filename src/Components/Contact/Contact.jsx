@@ -4,7 +4,6 @@ import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
-
 import { FaLinkedin } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
 export const Contact = () => {
@@ -18,15 +17,15 @@ export const Contact = () => {
         </h2>
         <div className="contactMain">
         <div className={"contactcontainer " + themename} data-aos="fade-right">
-          {/* Renderiza el componente del formulario */}
+          {}
           <ContactForm />
         </div>
         <div className="mailNumber" data-aos="fade-right">
           <div>
-            {/* Iconos y detalles de contacto */}
+            {}
           </div>
           <div className="iconsCont">
-            {/* Más iconos y detalles de contacto */}
+            {}
           </div>
         </div>
           <div
