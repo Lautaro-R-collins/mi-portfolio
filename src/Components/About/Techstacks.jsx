@@ -1,12 +1,12 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs, } from "react-icons/fa";
 import {
   SiHtml5,
   SiGit,
   SiExpress,
   SiVuedotjs,
-
+  SiFirebase
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -56,8 +56,8 @@ export const Techstacks = () => {
             <h5>MongoDb</h5>
           </div>
           <div>
-            <FaAws />
-            <h5>AWS</h5>
+            <SiFirebase />
+            <h5>Firebase</h5>
           </div>
           <div>
             <SiGit />
