@@ -5,8 +5,14 @@ import {
   SiHtml5,
   SiGit,
   SiExpress,
-  SiVuedotjs,
-  SiFirebase
+  SiFirebase,
+  SiAngular,
+  SiTypescript,
+  SiPython,
+  SiCsharp,
+  SiMui,
+  SiMysql,
+  SiFigma
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -28,20 +34,32 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           <div>
+            <SiFigma />
+            <h5>Figma</h5>
+          </div>
+          <div>
             <SiJavascript />
             <h5>Javascript</h5>
+          </div>
+          <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
           </div>
           <div>
             <FaReact />
             <h5>React</h5>
           </div>
           <div>
-            <SiVuedotjs />
-            <h5>Vue</h5>
+            <SiAngular />
+            <h5>Angular</h5>
           </div>
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
+          </div>
+          <div>
+            <SiMui />
+            <h5>MUI</h5>
           </div>
           <div>
             <FaNodeJs />
@@ -58,6 +76,18 @@ export const Techstacks = () => {
           <div>
             <SiFirebase />
             <h5>Firebase</h5>
+          </div>
+          <div>
+            <SiMysql />
+            <h5>Mysql</h5>
+          </div>
+          <div>
+            <SiPython />
+            <h5>Python</h5>
+          </div>
+          <div>
+            <SiCsharp />
+            <h5>C#</h5>
           </div>
           <div>
             <SiGit />

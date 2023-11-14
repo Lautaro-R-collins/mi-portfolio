@@ -19,7 +19,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Apasionado del mundo de la programación y la tecnologia, soy un desarrollador web en constante crecimiento y mejora,
+        Apasionado del mundo de la programación y la tecnologia, soy un desarrollador de software en constante crecimiento y aprendizaje,
         tanto en mi ámbito profesional como personal.
         </p>
         <div className="about__contact center">
