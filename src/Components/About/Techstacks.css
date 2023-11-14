@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 600px) {
+  .main {
+    margin-bottom: 30em;
+  }
   .techsection {
     height: 120vh;
   }
