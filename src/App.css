@@ -11,7 +11,7 @@
   --clr-bg-alt: #ffffff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary:  #312b8a;
+  --clr-primary:  rgb(44, 96, 165);
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 

@@ -22,7 +22,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hola, mi nombre es{" "}
-                <span className="different">Lautaro Rodriguez Collins </span> soy de Argentina. 
+                <span className="different">Lautaro</span>. 
                 Mi pasión por la tecnología y la programación surgió mientras cursaba una Tecnicatura Universitaria en Producción y Automatización,
                  donde en mi clasede informatica tuve mi primer contacto con el mundo de la programación. 
                  Motivado por la curiosidad continué estudiando de manera autodidacta, luego en una Tecnicatura de grado Universitaria enfocada 

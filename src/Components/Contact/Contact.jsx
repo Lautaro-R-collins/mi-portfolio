@@ -40,13 +40,13 @@ export const Contact = () => {
               <FaLinkedin className="linkedin" />
             </a>
             <a
-              href="lautarodevelops@gmail.com"
+              href="asd@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+5492616908835" target="_blank" rel="noreferrer">
+            <a href="tel:num" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
             <a
@@ -63,7 +63,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>lautarodevelops@gmail.com</p>
+                <p>hjkhjkhjkhjk@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -71,7 +71,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+54 9 261 690-8835</p>
+                <p>num</p>
               </span>
             </div>
           </div>

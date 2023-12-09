@@ -42,7 +42,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="https://instagram.com/lautaro.develops?igshid=OGQ5ZDc2ODK2ZA=="
+            href=""
             aria-label="instagram"
             className="link link--icon"
             target="_blank"
@@ -51,7 +51,7 @@ export const About = () => {
             <InstagramIcon />
           </a>
           <a
-            href="https://twitter.com/Lautarodevelops"
+            href=""
             aria-label="twitter"
             className="link link--icon"
             target="_blank"
@@ -60,7 +60,7 @@ export const About = () => {
             <TwitterIcon />
           </a>
           <a
-            href="mailto:lautarodevelops@gmail.com"
+            href="mailto:asd@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -69,7 +69,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+5492616908835"
+            href="tel:+"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -83,7 +83,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1LGSLxntq8MhFa2aNmgJg-EVEowdbebEF/view"
+              "poner link a cv con google drive"
             );
           }}
         >
