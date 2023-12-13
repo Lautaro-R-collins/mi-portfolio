@@ -19,7 +19,8 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Apasionado del mundo de la programación y la tecnologia, soy un desarrollador de software en constante crecimiento y aprendizaje,
+        Apasionado del mundo de la programación y la tecnologia, soy un desarrollador de software
+         en constante crecimiento y aprendizaje,
         tanto en mi ámbito profesional como personal.
         </p>
         <div className="about__contact center">
@@ -42,7 +43,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/lautaro.develops/"
             aria-label="instagram"
             className="link link--icon"
             target="_blank"
@@ -51,7 +52,7 @@ export const About = () => {
             <InstagramIcon />
           </a>
           <a
-            href=""
+            href="https://www.twitter.com/lautarodevelops/"
             aria-label="twitter"
             className="link link--icon"
             target="_blank"
@@ -60,7 +61,7 @@ export const About = () => {
             <TwitterIcon />
           </a>
           <a
-            href="mailto:asd@gmail.com"
+            href="mailto:lautarodevelops@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -69,7 +70,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+"
+            href="tel:+5492616908835"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"

@@ -41,6 +41,12 @@
 .linkedin:hover {
   color: #0a66c2;
 }
+.Hackerrank:hover {
+  color: #2EC866;
+}
+.StackOverflow:hover {
+  color: #F48024;
+}
 .github:hover {
   color: black;
 }

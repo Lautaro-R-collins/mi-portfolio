@@ -36,13 +36,13 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Español nativo{" "}
+                Español{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                English B2{" "}
+                English{" "}
               </h4>
             </div>
           </div>

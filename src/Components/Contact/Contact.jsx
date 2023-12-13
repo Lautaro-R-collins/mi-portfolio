@@ -5,6 +5,8 @@ import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
 import { FaLinkedin } from "react-icons/fa";
+import { FaHackerrank } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -40,13 +42,13 @@ export const Contact = () => {
               <FaLinkedin className="linkedin" />
             </a>
             <a
-              href="asd@gmail.com"
+              href="lautarodevelops@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:num" target="_blank" rel="noreferrer">
+            <a href="tel:+5492616908835" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
             <a
@@ -56,6 +58,20 @@ export const Contact = () => {
             >
               <VscGithub className="github" />
             </a>
+            <a
+              href="https://www.hackerrank.com/profile/L4UT1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaHackerrank className="Hackerrank" />
+            </a>
+            <a
+              href="https://es.stackoverflow.com/users/334787/l4ut1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaStackOverflow className="StackOverflow" />
+            </a>
           </div>
           <div className="mailNumber" data-aos="fade-right">
             <div>
@@ -63,7 +79,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>hjkhjkhjkhjk@gmail.com</p>
+                <p>lautarodevelops@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -71,7 +87,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>num</p>
+                <p>+54 9 261 690-8835</p>
               </span>
             </div>
           </div>
