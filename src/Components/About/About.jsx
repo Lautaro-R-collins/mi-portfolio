@@ -7,9 +7,10 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
-// import PublicIcon from "@material-ui/icons/Public";
+import KeyboardArrowDown from "@material-ui/icons/KeyboardArrowDown";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
+import { Link } from "react-scroll";
 export const About = () => {
   return (
     <>
@@ -31,7 +32,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInIcon />
+            <LinkedInIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
             href="https://github.com/Lautaro-R-collins"
@@ -40,7 +41,7 @@ export const About = () => {
             rel="noreferrer"
             className="link link--icon"
           >
-            <GitHubIcon />
+            <GitHubIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
             href="https://www.instagram.com/lautaro.develops/"
@@ -49,7 +50,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <InstagramIcon />
+            <InstagramIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
             href="https://www.twitter.com/lautarodevelops/"
@@ -58,7 +59,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <TwitterIcon />
+            <TwitterIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
             href="mailto:lautarodevelops@gmail.com"
@@ -67,7 +68,7 @@ export const About = () => {
             aria-label="mail"
             className="link link--icon"
           >
-            <EmailIcon />
+            <EmailIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
             href="tel:+5492616908835"
@@ -76,7 +77,7 @@ export const About = () => {
             aria-label="phone"
             className="link link--icon"
           >
-            <PhoneIcon />
+            <PhoneIcon style={{ fontSize: '1.7rem' }}/>
           </a>
         </div>
 
@@ -90,11 +91,17 @@ export const About = () => {
         >
           Currículum
         </button>
+        <Link to="#about" smooth={true} duration={200} className="scroll-arrow">
+        <div className="arrow-down">
+          <KeyboardArrowDown style={{ fontSize: '3rem' }}/>
+        </div>
+      </Link>
       </div>
       <Introduction />
       <section id="#skills">
         <Techstacks />
       </section>
+
     </>
   );
 };
