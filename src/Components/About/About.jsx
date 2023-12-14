@@ -91,9 +91,9 @@ export const About = () => {
         >
           Currículum
         </button>
-        <Link to="#about" smooth={true} duration={200} className="scroll-arrow">
+        <Link to="#about" smooth={true} duration={100} className="scroll-arrow">
         <div className="arrow-down">
-          <KeyboardArrowDown style={{ fontSize: '3rem' }}/>
+          <KeyboardArrowDown style={{ fontSize: '3.5rem' }}/>
         </div>
       </Link>
       </div>

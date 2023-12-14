@@ -63,7 +63,7 @@
   align-items: center;
   justify-content: center;
   color: var(--clr-primary); 
-  animation: fadeInOut 1.5s infinite;
+  animation: fadeInOut 2s infinite;
 }
 
 @keyframes fadeInOut {
@@ -89,14 +89,6 @@
     font-size: 1.5rem;
   }
   .scroll-arrow {
-    bottom: -35%; /* Ajusta la posición vertical de la flecha */
-    padding: 5px;
-  }
-
-  .arrow-down {
-    width: 20px; /* Ajusta el tamaño del contenedor */
-    height: 20px;
-    font-size: 1rem; /* Ajusta el tamaño del ícono */
-    padding: 5px;
+    display: none; 
   }
 }
