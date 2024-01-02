@@ -6,7 +6,8 @@
   margin-left: 1.5em;
 }
 .nav__cv {
-  margin-right: 10px; /* Puedes ajustar este valor según la separación que desees */
+  margin-right: 10px; 
+  margin-top: 3px;
 }
 .app .nav__hamburger {
   display: none;
