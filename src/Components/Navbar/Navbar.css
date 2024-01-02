@@ -5,6 +5,9 @@
 .nav__list-item {
   margin-left: 1.5em;
 }
+.nav__cv {
+  margin-right: 10px; /* Puedes ajustar este valor según la separación que desees */
+}
 .app .nav__hamburger {
   display: none;
 }

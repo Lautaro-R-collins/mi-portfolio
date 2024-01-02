@@ -5,6 +5,8 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined";
+
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -60,8 +62,19 @@ export const Navbar = () => {
               Contacto
             </a>
           </li>
-
         </ul>
+
+        <button
+          type="button"
+          onClick={() => window.open("URL_DEL_PDF", "_blank")}
+          className="btn btn--icon nav__cv"
+          aria-label="open CV"
+          title="Ver mi CV"
+          style={{ backgroundColor: "inherit" }}
+         >
+          <DescriptionOutlinedIcon />
+        </button>
+
         <button
           type="button"
           onClick={toggeltheme}
@@ -71,6 +84,7 @@ export const Navbar = () => {
         >
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>
+
         <button
           type="button"
           onClick={toggleNavList}
