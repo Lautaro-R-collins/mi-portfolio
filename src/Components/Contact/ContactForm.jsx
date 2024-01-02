@@ -61,7 +61,7 @@ const ContactForm = () => {
         <button type="submit">Enviar Mensaje</button>
         <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/#contact" ></input>
         <input type="hidden" name="_captcha" value="false" ></input>
-
+        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/#contact/thanks.html"></input>
       </form>
     </div>
   );
