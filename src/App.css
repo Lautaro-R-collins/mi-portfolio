@@ -11,8 +11,8 @@
   --clr-bg-alt: #ffffff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary:  rgb(34, 61, 136);
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-primary:  rgb(23, 47, 99);
+  --shadow: rgba(5, 5, 5, 0.123) 0px 7px 29px 0px;
 }
 
 .dark {

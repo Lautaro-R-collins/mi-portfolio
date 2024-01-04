@@ -10,7 +10,6 @@ import GitHubCalendarComponent from './GitHubCalendar';
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import { ThemeContext } from "../../Context/theme";
-import FlagIcon from "@material-ui/icons/Flag";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
 
 
@@ -22,9 +21,9 @@ export const Timeline = () => {
 
   React.useEffect(() => {
     if (themename === "dark") {
-      setlinecolor("#fcfcfc");
-    } else {
       setlinecolor("#23283e");
+    } else {
+      setlinecolor("#ffffff");
     }
   }, [themename]);
   return (
@@ -34,28 +33,19 @@ export const Timeline = () => {
           Mi <span className="different">Camino</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-             <VerticalTimelineElement
-            icon={<FlagIcon />}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-          ></VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"2009 - 2013"}
+            date= {"2009 - 2013"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
-            }}
+            }} 
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
+              border: `3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -80,11 +70,10 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -112,11 +101,10 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -148,11 +136,10 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -184,11 +171,10 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -219,11 +205,10 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -249,11 +234,11 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
+              borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
@@ -278,8 +263,6 @@ export const Timeline = () => {
               Diseño UX/UI - Frontend - Backend
             </p>
           </VerticalTimelineElement>
-
-
         </VerticalTimeline>
       </div>
       <GitHubCalendarComponent />
