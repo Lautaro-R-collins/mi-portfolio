@@ -9,6 +9,8 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+
+
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -18,9 +20,9 @@ export default function App() {
     <div id="top" className={`${themename} app`}>
       <section id="#home">
         <Header />
-      </section>
+      </section>     
       <main>
-        <About />
+        <About />     
         <section id="#projects">
           <Projects />
         </section>

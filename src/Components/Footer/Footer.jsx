@@ -60,7 +60,7 @@ export const Footer = () => {
             <span role="img" aria-label="Café">
               ☕ y 🧉
             </span>{" "}
-            © 2023 Lautaro Rodriguez Collins. 
+            © 2024 Lautaro Rodriguez Collins. 
           </p>
         </div>
       </div>

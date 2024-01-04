@@ -212,7 +212,7 @@ export const Projects = () => {
         target="_blank"
         rel="noreferrer"
          >
-        <span className="btns onbt onbt">Ver más en mi Github</span>
+        <div data-aos="fade-right"><span  className="btns onbt onbt">Ver más en mi Github</span></div>     
         </a>
     </div>
     </>   

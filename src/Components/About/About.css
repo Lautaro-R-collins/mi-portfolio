@@ -40,7 +40,7 @@
   height: 50px;
   cursor: pointer;
   padding: 10px 30px;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .btnResume:hover{
@@ -56,24 +56,6 @@
   cursor: pointer;
 }
 
-.arrow-down {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--clr-primary); 
-  animation: fadeInOut 2s infinite;
-}
-
-@keyframes fadeInOut {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
 
 @media (max-width: 600px) {
   .mobileHead{
@@ -88,7 +70,8 @@
   .about > :nth-child(2) {
     font-size: 1.5rem;
   }
-  .scroll-arrow {
-    display: none; 
-  }
+
 }
+
+
+

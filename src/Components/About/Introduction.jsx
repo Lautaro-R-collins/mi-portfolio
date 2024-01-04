@@ -4,7 +4,6 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/Photo_fw14_056.jpeg";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 

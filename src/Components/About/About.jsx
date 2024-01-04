@@ -7,10 +7,10 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import KeyboardArrowDown from "@material-ui/icons/KeyboardArrowDown";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
-import { Link } from "react-scroll";
+import { Timeline } from "./Timeline";
+
 export const About = () => {
   return (
     <>
@@ -91,17 +91,12 @@ export const About = () => {
         >
           Currículum
         </button>
-        <Link to="#about" smooth={true} duration={100} className="scroll-arrow">
-        <div className="arrow-down">
-          <KeyboardArrowDown style={{ fontSize: '3.5rem' }}/>
-        </div>
-      </Link>
       </div>
-      <Introduction />
-      <section id="#skills">
+      <Introduction />    
+      <Timeline />
+      <section id="#skills">       
         <Techstacks />
       </section>
-
     </>
   );
 };
