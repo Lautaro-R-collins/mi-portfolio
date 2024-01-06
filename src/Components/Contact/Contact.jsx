@@ -8,12 +8,16 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
+import Quoteslide from "./Quoteslide"; 
+
+
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
       <div className="section">
+        <Quoteslide />
         <h2 className="section__title" data-aos="fade-right">
           Mi <span className="different">Contacto</span>
         </h2>
@@ -88,11 +92,13 @@ export const Contact = () => {
               </span>
               <span>
                 <p>+54 9 261 690-8835</p>
-              </span>
+              </span>             
             </div>
           </div>
+          
         </div>
       </div>
+      
     </>
   );
 };
