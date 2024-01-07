@@ -51,7 +51,7 @@
   }
   .carousel__citation {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-style: normal;
     margin-bottom: 1.25rem;
   }
@@ -60,10 +60,11 @@
     font-style: normal;
     font-weight: 600;
     color: var(--clr-primary);
-    font-size: 1.09rem;
+    font-size: 1.3rem;
   }
   .carousel__quote {
     font-style: italic;
     line-height: 1.5;
+    font-size: 1rem;
   }
   

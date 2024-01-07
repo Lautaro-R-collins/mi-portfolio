@@ -28,29 +28,29 @@ function Quoteslide() {
 
   const reviews = [
     {
-      name: "Jonathan D.",
-      citation: "Sale Closed in 2019",
-      quote: "Door.com has been great. I feel like I got to work with a specialist at each point isdsadsadsadsadsadsadasdsa",
+      name: "Alan Turing",
+      citation: "- Matemático, Lógico y padre de la ciencia de la computación",
+      quote: "Solo podemos ver poco del futuro, pero lo suficiente para darnos cuenta de que hay mucho que hacer.",
     },
     {
-      name: "Peter C.",
-      citation: "Sale Closed in 2019",
-      quote: "I have bought and sold ten homes. This has been the most rewarding experience of them all. True professionalism and insight as well as great customer service makes me a believer in the Door.com business model.",
+      name: "Michael Jordan",
+      citation: "- Exjugador de la NBA y leyenda del deporte",
+      quote: "Siempre he creído que si pones el trabajo, los resultados vendrán.",
     },
     {
-      name: "Paulette H.",
-      citation: "Sale Closed in 2019",
-      quote: "The entire experience from onboarding to the sale of our home has been professional, expedited quickly, and I saved close to $14,000 in commissions. I will absolutely be using Door.com for the sale of my next property.",
+      name: "Ludwig von Mises",
+      citation: "- Economista y Teórico de la Escuela Austriaca",
+      quote: "La acción es el medio más fundamental para mejorar nuestras condiciones. No esperes a que las cosas cambien, ¡cámbialas tú mismo!",
     },
     {
-      name: "Ryan W.",
-      citation: "Sale Closed in 2019",
-      quote: "Service was excellent EVERY step of the process! No way to tell that Door.com provided a flat rate service by the way that they treated us and handled every step of the transactions.",
+      name: "George Boole",
+      citation: "- Fundador de la Lógica Matemática",
+      quote: "La mente que se abre a una nueva idea nunca volverá a su tamaño original.",
     },
     {
-      name: "Kevin R.",
-      citation: "Sale Closed in 2019",
-      quote: "Everyone we worked with was very responsive, professional and easy to work with. A great experience all around. I work in this industry too so my expectations are high. Great work by all.",
+      name: "Ayn Rand",
+      citation: "- Filósofa, Novelista y creadora del objetivismo",
+      quote: "La razón y la lógica son las herramientas fundamentales para la toma de decisiones y la mejora personal.",
     },
   ];
 

@@ -24,7 +24,7 @@ export const Contact = () => {
         <div className="contactMain">
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           {}
-          <ContactForm />
+        <ContactForm />
         </div>
         <div className="mailNumber" data-aos="fade-right">
           <div>
