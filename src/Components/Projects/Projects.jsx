@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import Quoteslide from "./Quoteslide"; 
 import { FaReact } from "react-icons/fa";
 import {
   SiHtml5,
@@ -9,6 +10,8 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
+
+
 export const Projects = () => {
   return (
     <>
@@ -204,10 +207,12 @@ export const Projects = () => {
         target="_blank"
         rel="noreferrer"
          >
-        <div data-aos="fade-right"><span  className="btns onbt onbt">Ver más en mi Github</span></div>     
-        </a>
-    </div>
+        <div data-aos="fade-right"><span  className="btns onbt onbt ">Ver más en mi Github</span></div>     
+        </a>       
+       </div>
+       <Quoteslide />
     </>   
+    
   );  
 };
 

@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
-import Quoteslide from "./Quoteslide"; 
+
 
 
 export const Contact = () => {
@@ -16,8 +16,7 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="section">
-        <Quoteslide />
+      <div className="section">       
         <h2 className="section__title" data-aos="fade-right">
           Mi <span className="different">Contacto</span>
         </h2>

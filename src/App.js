@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router} from "react-router-dom";
 import { Header } from "./Components/Header/Header";
 import "./App.css";
 import { ThemeContext } from "./Context/theme";
@@ -9,30 +10,34 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
-
-
+import FloatMenu from "./Components/FloatMenu/FloatMenu";
 
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
+
   React.useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
+
   return (
-    <div id="top" className={`${themename} app`}>
-      <section id="#home">
-        <Header />
-      </section>     
-      <main>
-        <About />     
-        <section id="#projects">
-          <Projects />
+    <Router>
+      <div id="top" className={`${themename} app`}>
+        <section id="home">
+          <Header />
         </section>
-        <section id="#contact">
-          <Contact />
-        </section>
-      </main> 
-      <Footer />
-      <ScrollToTop />
-    </div>
+        <main>
+          <About />
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </main>
+        <Footer />
+        <ScrollToTop />
+        <FloatMenu />
+      </div>
+    </Router>
   );
 }
