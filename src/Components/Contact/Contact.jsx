@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
-
+import { Trans } from 'react-i18next';
 
 
 export const Contact = () => {
@@ -16,9 +16,9 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="section">       
-        <h2 className="section__title" data-aos="fade-right">
-          Mi <span className="different">Contacto</span>
+      <div className="section" >       
+        <h2 className="section__title" >
+          <Trans i18nKey="conta" components={[<span data-aos="fade-right" className="different" key="1" />]} />
         </h2>
         <div className="contactMain">
         <div className={"contactcontainer " + themename} data-aos="fade-right">

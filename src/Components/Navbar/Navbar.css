@@ -15,7 +15,15 @@
 .nav__theme {
   margin-top: 0.4em;
 }
-
+.nav__language {
+  margin-left: 8px;
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+  background-color: var(--clr-bg);
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 4px;
+}
 
 @media (max-width: 600px) {
   .nav__list {

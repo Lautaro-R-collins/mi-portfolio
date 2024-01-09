@@ -10,14 +10,14 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-
+import { Trans } from 'react-i18next';
 
 export const Projects = () => {
   return (
     <>
       <div className="section">
         <h2 className="section__title" data-aos="fade-right">
-          Mis <span className="different">Projectos</span>
+          <Trans i18nKey="proylau" components={[<span className="different" key="0" />]} />
         </h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">

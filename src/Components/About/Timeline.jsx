@@ -6,7 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import GitHubCalendarComponent from './GitHubCalendar';
-
+import { Trans } from 'react-i18next';
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import { ThemeContext } from "../../Context/theme";
@@ -30,7 +30,7 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          Mi <span className="different">Camino</span>
+          <Trans i18nKey="title2" components={[<span className="different" key="0" />]} />
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
@@ -55,13 +55,13 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Bachiller en Economía y Administración
+              <Trans i18nKey="lin1" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Instituto Augusto Salinas - Educación secundaria
+              <Trans i18nKey="lin01" components={[<span className="different" key="0" />]} />
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -86,7 +86,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Tecnico Informatico
+              <Trans i18nKey="lin2" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -117,16 +117,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Tecnicatura universitaria en producción y automatización.
+              <Trans i18nKey="lin3" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Universidad Nacional de Cuyo
+              <Trans i18nKey="lin03" components={[<span className="different" key="0" />]} />
             </h4>
             <p data-aos="fade-right">
-             Automatismo y Robotica - Informatica - Electronica - Gestion Empresarial - Diseño y Producción Inds.
+            <Trans i18nKey="lin13" components={[<span className="different" key="0" />]} />
             </p> 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -152,16 +152,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Diseñador de CAD
+              <Trans i18nKey="lin4" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Diseño asistido por computadora
+              <Trans i18nKey="lin04" components={[<span className="different" key="0" />]} />
             </h4>
             <p data-aos="fade-right">
-              Autocad - solidworks - solidedge
+             <Trans i18nKey="lin14" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -187,16 +187,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Tecnicatura Universitaria en Desarrollo de Software
+              <Trans i18nKey="lin5" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Universidad Nacional de Cuyo
+              <Trans i18nKey="lin05" components={[<span className="different" key="0" />]} />
             </h4>
             <p data-aos="fade-right">
-              Desarollo de software Full Stack - Programación - Ciencias de la computacion - Lógica Matemática - contenido multimedia - Bases de Datos 
+            <Trans i18nKey="lin15" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -221,10 +221,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Cursos licencias y capacitaciones
+              <Trans i18nKey="lin6" components={[<span className="different" key="0" />]} />
             </h3>
             <p data-aos="fade-right">
-              Diseño Web Avanzado (UTN) - Desarrollo Frontend En React (UTN) - Desarrollo backend Con Node.JS (UTN)
+            <Trans i18nKey="lin06" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -251,16 +251,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Desarrollador De Software Freelancer
+              <Trans i18nKey="lin7" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Autonomo 
+              <Trans i18nKey="lin07" components={[<span className="different" key="0" />]} />
             </h4>
             <p data-aos="fade-right">
-              Diseño UX/UI - Frontend - Backend
+            <Trans i18nKey="lin17" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
 import Brightness2Icon from "@material-ui/icons/Brightness2";
@@ -12,6 +13,8 @@ export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
 
+  const { t, i18n } = useTranslation();
+
   const toggleNavList = (id) => {
     var element = document.getElementById(id);
     if (element) {
@@ -19,6 +22,11 @@ export const Navbar = () => {
     }
     setShowNavList(!showNavList);
   };
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
   return (
     <>
       <nav className="center nav">
@@ -32,7 +40,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
             >
-              Sobre mí
+              {t('about')}
             </a>
           </li>
           <li className="nav__list-item">
@@ -41,7 +49,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#skills")}
               className="link link--nav"
             >
-              Tecnologías
+              {t('skills')}
             </a>
           </li>
           <li className="nav__list-item">
@@ -50,7 +58,7 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#projects")}
               className="link link--nav"
             >
-              Proyectos
+              {t('projects')}
             </a>
           </li>
           <li className="nav__list-item">
@@ -59,11 +67,11 @@ export const Navbar = () => {
               onClick={() => toggleNavList("#contact")}
               className="link link--nav"
             >
-              Contacto
+              {t('contact')}
             </a>
           </li>
         </ul>
-
+        
         <button
           type="button"
           onClick={() => window.open("URL_DEL_PDF", "_blank")}
@@ -83,6 +91,16 @@ export const Navbar = () => {
           style={{ backgroundColor: "inherit" }}
         >
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        </button>
+
+        <button
+          type="button"
+          onClick={() => changeLanguage(i18n.language === 'es' ? 'en' : 'es')}
+          className="nav__language "
+          aria-label="change language"
+          style={{ backgroundColor: "inherit" }}
+          >
+            {i18n.language === 'es' ? 'English' : 'Español'}
         </button>
 
         <button

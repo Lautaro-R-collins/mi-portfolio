@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import GitHubCalendar from 'react-github-calendar';
+import { Trans } from 'react-i18next';
 
 const GitHubCalendarComponent = ({ username }) => {
   useEffect(() => {
@@ -12,7 +13,7 @@ const GitHubCalendarComponent = ({ username }) => {
   return (
     <div data-aos="fade-right">
       <h2 className="section__title" style={{ marginTop: "2em" }}>
-        Días <span className="different">Codeando</span>
+      <Trans i18nKey="coding" components={[<span className="different" key="0" />]} />
       </h2>
       <GitHubCalendar
         username="Lautaro-R-collins"

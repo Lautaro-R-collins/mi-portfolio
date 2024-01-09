@@ -1,4 +1,5 @@
 import React from "react";
+import { Trans } from 'react-i18next';
 import "./Techstacks.css";
 import { FaReact, FaNodeJs, } from "react-icons/fa";
 import {
@@ -23,7 +24,7 @@ export const Techstacks = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
-        <h2 className="section__title"><span className="different">Tecnologias</span> y Herramientas</h2>
+        <h2 className="section__title" style={{ marginTop: "2em" }}><Trans i18nKey="teckstacks" components={[<span className="different" key="0" />]} /></h2>
         <div className="techsection">
           <div>
             <SiHtml5 />

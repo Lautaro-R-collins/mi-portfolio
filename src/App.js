@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router} from "react-router-dom";
+import React, { Suspense } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Header } from "./Components/Header/Header";
 import "./App.css";
 import { ThemeContext } from "./Context/theme";
@@ -11,6 +11,8 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import FloatMenu from "./Components/FloatMenu/FloatMenu";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -21,23 +23,27 @@ export default function App() {
 
   return (
     <Router>
-      <div id="top" className={`${themename} app`}>
-        <section id="home">
-          <Header />
-        </section>
-        <main>
-          <About />
-          <section id="projects">
-            <Projects />
-          </section>
-          <section id="contact">
-            <Contact />
-          </section>
-        </main>
-        <Footer />
-        <ScrollToTop />
-        <FloatMenu />
-      </div>
+      <I18nextProvider i18n={i18n}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <div id="top" className={`${themename} app`}>
+            <section id="home">
+              <Header />
+            </section>
+            <main>
+              <About />
+              <section id="projects">
+                <Projects />
+              </section>
+              <section id="contact">
+                <Contact />
+              </section>
+            </main>
+            <Footer />
+            <ScrollToTop />
+            <FloatMenu />
+          </div>
+        </Suspense>
+      </I18nextProvider>
     </Router>
   );
 }

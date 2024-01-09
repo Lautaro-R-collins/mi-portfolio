@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Quoteslide.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Trans } from 'react-i18next';
 
 function Quoteslide() {
   const [activeSlide, setActiveSlide] = useState(1);
@@ -29,28 +30,28 @@ function Quoteslide() {
   const reviews = [
     {
       name: "Alan Turing",
-      citation: "- Matemático, Lógico y padre de la ciencia de la computación.",
-      quote: "Solo podemos ver poco del futuro, pero lo suficiente para darnos cuenta de que hay mucho que hacer.",
+      citation: <Trans i18nKey="cita1" components={[<span className="different" key="0" />]} />,
+      quote: <Trans i18nKey="quote1" components={[<span className="different" key="0" />]} />,
     },
     {
       name: "Michael Jordan",
-      citation: "- Exjugador de la NBA y leyenda del deporte.",
-      quote: "Siempre he creído que si pones el trabajo, los resultados vendrán.",
+      citation: <Trans i18nKey="cita2" components={[<span className="different" key="0" />]} />,
+      quote: <Trans i18nKey="quote2" components={[<span className="different" key="0" />]} />,
     },
     {
       name: "Ludwig von Mises",
-      citation: "- Economista y Teórico de la Escuela Austriaca.",
-      quote: "La acción es el medio más fundamental para mejorar nuestras condiciones. No esperes a que las cosas cambien, ¡cámbialas tú mismo!",
+      citation: <Trans i18nKey="cita3" components={[<span className="different" key="0" />]} />,
+      quote: <Trans i18nKey="quote3" components={[<span className="different" key="0" />]} />,
     },
     {
       name: "George Boole",
-      citation: "- Fundador de la Lógica Matemática.",
-      quote: "La mente que se abre a una nueva idea nunca volverá a su tamaño original.",
+      citation: <Trans i18nKey="cita4" components={[<span className="different" key="0" />]} />,
+      quote: <Trans i18nKey="quote4" components={[<span className="different" key="0" />]} />,
     },
     {
       name: "Ayn Rand",
-      citation: "- Filósofa, Novelista y creadora del objetivismo.",
-      quote: "La razón y la lógica son las herramientas fundamentales para la toma de decisiones y la mejora personal.",
+      citation: <Trans i18nKey="cita5" components={[<span className="different" key="0" />]} />,
+      quote: <Trans i18nKey="quote5" components={[<span className="different" key="0" />]} />,
     },
   ];
 

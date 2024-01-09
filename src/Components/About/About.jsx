@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { useTranslation } from "react-i18next";
 import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -10,19 +11,20 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import { Timeline } from "./Timeline";
+import { Trans } from 'react-i18next';
+
 
 export const About = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hola, soy <span className="about__name">Lautaro</span>.
+          <Trans i18nKey="about.greeting" components={[<span className="about__name" key="0" />]} />
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Apasionado del mundo de la programación y la tecnologia, soy un desarrollador de software
-         en constante crecimiento y aprendizaje,
-        tanto en mi ámbito profesional como personal.
+          {t("about.description")}
         </p>
         <div className="about__contact center">
           <a
@@ -89,8 +91,9 @@ export const About = () => {
             );
           }}
         >
-          Currículum
+          {t("about.resume")}
         </button>
+
       </div>
       <Introduction />    
       <Timeline />

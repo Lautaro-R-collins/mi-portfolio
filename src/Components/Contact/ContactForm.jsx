@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './ContactForm.css';
+import { Trans } from 'react-i18next';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ const ContactForm = () => {
   //action="https://formspree.io/f/xbjvppwk" method="POST"
   return (
     <div className="contact-form">
-      <h2>Hablemos!</h2>
+      <h2 className="section__title" > <Trans i18nKey="talks" components={[<span className="about__name" key="0" />]} /> </h2>
       <form  action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST">
         <div className="form-group">
           <label htmlFor="name">Nombre :</label>
