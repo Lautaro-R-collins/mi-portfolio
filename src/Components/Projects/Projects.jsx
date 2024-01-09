@@ -11,13 +11,16 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { Trans } from 'react-i18next';
+import { useTranslation } from "react-i18next";
+
 
 export const Projects = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="section">
         <h2 className="section__title" data-aos="fade-right">
-          <Trans i18nKey="proylau" components={[<span className="different" key="0" />]} />
+          <Trans i18nKey="proylau" components={[<span className="different" key="1" />]} />
         </h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
@@ -47,7 +50,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      Vista Previa
+                      {t("verpag")} 
                     </span>
                   </a>
                   <a
@@ -56,7 +59,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Ver codigo
+                      {t("vercod")} 
                     </span>
                   </a>
                 </div>
@@ -93,7 +96,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Vista previa
+                      {t("verpag")} 
                     </span>
                   </a>
                   <a
@@ -102,7 +105,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Ver codigo
+                      {t("vercod")}
                     </span>
                   </a>
                 </div>
@@ -138,7 +141,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      Vista previa
+                      {t("verpag")} 
                     </span>
                   </a>
                   <a
@@ -147,7 +150,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Ver codigo
+                      {t("vercod")}
                     </span>
                   </a>
                 </div>
@@ -183,7 +186,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      Vista previa
+                      {t("verpag")} 
                     </span>
                   </a>
                   <a
@@ -192,7 +195,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Ver codigo
+                       {t("vercod")}
                     </span>
                   </a>
                 </div>               
@@ -207,7 +210,7 @@ export const Projects = () => {
         target="_blank"
         rel="noreferrer"
          >
-        <div data-aos="fade-right"><span  className="btns onbt onbt ">Ver más en mi Github</span></div>     
+        <div data-aos="fade-right"><span  className="btns onbt onbt ">{t("vermas")} </span></div>     
         </a>       
        </div>
        <Quoteslide />

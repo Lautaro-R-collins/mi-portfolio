@@ -17,8 +17,8 @@ export const Contact = () => {
   return (
     <>
       <div className="section" >       
-        <h2 className="section__title" >
-          <Trans i18nKey="conta" components={[<span data-aos="fade-right" className="different" key="1" />]} />
+        <h2 className="section__title"  data-aos="fade-right">
+          <Trans i18nKey="conta" components={[<span className="different" key="1" />]} />
         </h2>
         <div className="contactMain">
         <div className={"contactcontainer " + themename} data-aos="fade-right">

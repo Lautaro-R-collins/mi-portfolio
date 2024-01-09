@@ -5,15 +5,17 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
+  const { t } = useTranslation();
 
   return (
     <div className={"section " + themename}>
       <div className="footerBox">
         <div className="footer-social">
-          <h3>Mis Redes</h3>
+          <h3>{t("redes")}</h3>
           <div className="social-icons">
             <a
               href="https://github.com/Lautaro-R-collins"
