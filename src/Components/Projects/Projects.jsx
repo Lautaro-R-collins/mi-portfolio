@@ -20,7 +20,7 @@ export const Projects = () => {
     <>
       <div className="section">
         <h2 className="section__title" data-aos="fade-right">
-          <Trans i18nKey="proylau" components={[<span className="different" key="1" />]} />
+          <Trans i18nKey="proylau" components={[<span className="different" key="0" />]} />
         </h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">

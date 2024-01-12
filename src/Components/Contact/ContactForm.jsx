@@ -22,10 +22,10 @@ const ContactForm = () => {
   //action="https://formspree.io/f/xbjvppwk" method="POST"
   return (
     <div className="contact-form">
-      <h2 className="section__title" > <Trans i18nKey="talks" components={[<span className="about__name" key="1" />]} /> </h2>
+      <h2 className="section__title" > <Trans i18nKey="talks" components={[<span className="about__name" key="0" />]} /> </h2>
       <form  action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST">
         <div className="form-group">
-          <label htmlFor="name"><Trans i18nKey="name" components={[<span className="different" key="1" />]} /></label>
+          <label htmlFor="name"><Trans i18nKey="name" components={[<span className="different" key="0" />]} /></label>
           <input
             type="text"
             id="name"
@@ -37,7 +37,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email"><Trans i18nKey="mailt" components={[<span className="different" key="1" />]} /></label>
+          <label htmlFor="email"><Trans i18nKey="mailt" components={[<span className="different" key="0" />]} /></label>
           <input
             type="email"
             id="email"
@@ -49,7 +49,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="message"><Trans i18nKey="massag" components={[<span className="different" key="1" />]} /></label>
+          <label htmlFor="message"><Trans i18nKey="massag" components={[<span className="different" key="0" />]} /></label>
           <textarea
             id="message"
             name="message"

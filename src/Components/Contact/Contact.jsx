@@ -9,16 +9,17 @@ import { FaHackerrank } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import ContactForm from "./ContactForm"; 
 import { Trans } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
-
+  const { t } = useTranslation();
   return (
     <>
-      <div className="section" >       
-        <h2 className="section__title"  data-aos="fade-right">
-          <Trans i18nKey="conta" components={[<span className="different" key="1" />]} />
+      <div className="section" data-aos="fade-right" >       
+        <h2 className="section__title"  >
+          <Trans i18nKey="contacto" components={[<span className="different" key="1" />]} />
         </h2>
         <div className="contactMain">
         <div className={"contactcontainer " + themename} data-aos="fade-right">
