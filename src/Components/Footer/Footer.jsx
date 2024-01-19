@@ -15,7 +15,6 @@ export const Footer = () => {
     <div className={"section " + themename}>
       <div className="footerBox">
         <div className="footer-social">
-          <h3>{t("redes")}</h3>
           <div className="social-icons">
             <a
               href="https://github.com/Lautaro-R-collins"

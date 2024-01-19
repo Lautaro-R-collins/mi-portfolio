@@ -67,7 +67,6 @@ i18n.use(initReactI18next).init({
         "vercod": "Ver Codigo",
         "vermas": "ver más en mi github",
         "massag": "Mensaje :",
-        "redes": "Mis Redes",
       },
     },
     en: {
@@ -128,7 +127,6 @@ i18n.use(initReactI18next).init({
         "vercod": "See Code",
         "vermas": "see more on my github",
         "massag": "Message :",
-        "redes": "My networks",
       },
     },
   },
