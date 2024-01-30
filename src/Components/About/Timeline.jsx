@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import GitHubCalendarComponent from './GitHubCalendar';
 import { Trans } from 'react-i18next';
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
@@ -40,6 +39,7 @@ export const Timeline = () => {
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
+              borderRadius: `20px`,
               backgroundColor: `var(--clr-bg)`,
 
               color: `var(--clr-fg-alt)`,
@@ -48,7 +48,6 @@ export const Timeline = () => {
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -56,17 +55,15 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin7" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin07" components={[<span className="different" key="0" />]} />
             </h4>
-            <p data-aos="fade-right">
+            <p>
             <Trans i18nKey="lin17" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
@@ -75,6 +72,7 @@ export const Timeline = () => {
             className="vertical-timeline-element--work"
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius: `20px`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-fg-alt)`,
@@ -83,7 +81,6 @@ export const Timeline = () => {
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -91,11 +88,10 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin6" components={[<span className="different" key="0" />]} />
             </h3>
-            <p data-aos="fade-right">
+            <p>
             <Trans i18nKey="lin06" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
@@ -105,15 +101,16 @@ export const Timeline = () => {
             date={"2023 - 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius: `20px`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
               borderRight: "10px solid  var(--clr-primary)",
+              color: `var(--clr-primary)`,
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -121,17 +118,15 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin5" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin05" components={[<span className="different" key="0" />]} />
             </h4>
-            <p data-aos="fade-right">
+            <p>
             <Trans i18nKey="lin15" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
@@ -141,6 +136,7 @@ export const Timeline = () => {
             date={"2020 - 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius: `20px`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-fg-alt)`,
@@ -149,7 +145,6 @@ export const Timeline = () => {
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -157,17 +152,15 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin4" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin04" components={[<span className="different" key="0" />]} />
             </h4>
-            <p data-aos="fade-right">
+            <p>
              <Trans i18nKey="lin14" components={[<span className="different" key="0" />]} />
             </p>
           </VerticalTimelineElement>
@@ -176,6 +169,7 @@ export const Timeline = () => {
             date={"2019 - 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius: `20px`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-fg-alt)`,
@@ -184,7 +178,6 @@ export const Timeline = () => {
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -192,17 +185,15 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin3" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin03" components={[<span className="different" key="0" />]} />
             </h4>
-            <p data-aos="fade-right">
+            <p>
             <Trans i18nKey="lin13" components={[<span className="different" key="0" />]} />
             </p> 
           </VerticalTimelineElement>
@@ -211,6 +202,7 @@ export const Timeline = () => {
             date={"2015 - 2017"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              borderRadius: `20px`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-fg-alt)`,
@@ -219,7 +211,6 @@ export const Timeline = () => {
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -227,13 +218,11 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin2" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               Walmart Argentina
             </h4>
@@ -245,13 +234,13 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
+              borderRadius: `20px`,
               color: `var(--clr-fg-alt)`,
             }} 
             contentArrowStyle={{
               borderRight: "10px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border: `3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -259,21 +248,17 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin1" components={[<span className="different" key="0" />]} />
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
             >
               <Trans i18nKey="lin01" components={[<span className="different" key="0" />]} />
             </h4>
           </VerticalTimelineElement>
-
         </VerticalTimeline>
       </div>
-      <GitHubCalendarComponent />
     </>
   );
 };
