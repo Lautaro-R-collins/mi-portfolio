@@ -10,7 +10,6 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
-import FloatMenu from "./Components/FloatMenu/FloatMenu";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 
@@ -40,7 +39,6 @@ export default function App() {
             </main>
             <Footer />
             <ScrollToTop />
-            <FloatMenu />
           </div>
         </Suspense>
       </I18nextProvider>

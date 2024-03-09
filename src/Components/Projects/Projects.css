@@ -43,14 +43,17 @@
     overflow-x: hidden;
     margin-bottom: 10px;
 }
+
 .project_information > h2 {
     margin-top: 1em;
     color: var(--clr-primary);
 }
+
 .project_information > p {
     margin-top: 1em;
     text-align: center;
 }
+
 .project_information > div:nth-child(3) {
     margin-top: 0.5em;
     display: flex;
@@ -68,10 +71,10 @@
     margin-top: 0.6em;
     display: flex;
 }
+
 .onbt {
     margin: 0 1vw 0 1vw;
 }
-
 
 .btns {
     color: var(--clr-primary);
