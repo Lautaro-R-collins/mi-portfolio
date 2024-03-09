@@ -10,7 +10,7 @@
 .logo {
   font-size: 1.3em;
   margin-right: 530px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -88,7 +88,8 @@
     margin: 0.5em 0;
   }
   .nav {
-    margin-right: 20px;
+    margin-right: 5px;
+    width: 100%; 
   }
 
   .app .nav__hamburger {
