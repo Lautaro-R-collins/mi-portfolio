@@ -5,11 +5,11 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import { useTranslation } from "react-i18next";
+
 
 export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
-  const { t } = useTranslation();
+
 
   return (
     <div className={"section " + themename}>
@@ -50,17 +50,8 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        {/* Frase */}
         <div className="footer-phrase">
           <p>
-            Hecho en{" "}
-            <span role="img" aria-label="React logo">
-              ⚛️
-            </span>{" "}
-            con ayuda de{" "}
-            <span role="img" aria-label="Café">
-              ☕ y 🧉
-            </span>{" "}
             © 2024 Lautaro Rodriguez Collins. 
           </p>
         </div>
