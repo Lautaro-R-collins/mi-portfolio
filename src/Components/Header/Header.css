@@ -8,24 +8,24 @@
 }
 
 .logo {
-  font-size: 1.3em;
-  margin-right: 530px;
-  margin-bottom: 10px;
+  font-size: 1.1em;
+  margin-right: 570px;
+ 
 }
 
 .nav {
   position: fixed;
   top: 0;
   right: 0; 
-  width: calc(100% - 1.5em); 
+  width: 100%; 
   height: 80px; 
   background-color: var(--clr-bg);
   z-index: 1000;
-  transition: top 0.3s;
+  transition: top 0.6s;
   display: flex;
   align-items: center;
-  margin-right: 50px;
   justify-content: flex-end; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.178);
 }
 
 .nav.hide {
@@ -35,11 +35,11 @@
 .nav__list {
   margin-right: 1.5em; 
   display: flex;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .nav__list-item {
-  margin-left: 1.5em; 
+  margin-left: 1.4em; 
 }
 
 .nav__cv {
@@ -49,6 +49,7 @@
 
 .app .nav__hamburger {
   display: none;
+ 
 }
 
 .nav__theme {
@@ -63,6 +64,7 @@
   border-radius: 10px;
   font-size: 15px;
   padding: 4px;
+  margin-right: 50px;
 }
 
 @media (max-width: 600px) {
@@ -90,6 +92,10 @@
   .nav {
     margin-right: 5px;
     width: 100%; 
+  }
+
+  .nav__language {
+    margin-right: 0px;
   }
 
   .app .nav__hamburger {
