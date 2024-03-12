@@ -10,7 +10,6 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
-
   return (
     <div className={"section " + themename}>
       <div className="footerBox">

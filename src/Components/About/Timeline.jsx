@@ -228,35 +228,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement  
-            date= {"2009 - 2013"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              borderRadius: `20px`,
-              color: `var(--clr-fg-alt)`,
-            }} 
-            contentArrowStyle={{
-              borderRight: "10px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-            >
-              <Trans i18nKey="lin1" components={[<span className="different" key="0" />]} />
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-            >
-              <Trans i18nKey="lin01" components={[<span className="different" key="0" />]} />
-            </h4>
-          </VerticalTimelineElement>
+          
         </VerticalTimeline>
       </div>
     </>

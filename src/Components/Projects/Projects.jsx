@@ -28,7 +28,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://camo.githubusercontent.com/02958a659da8099c0d9f8c26dbfc7aa52cc75fb5e855ebd037d0d434b561af8a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f46342d4e485876574d4141543354483f666f726d61743d6a7067266e616d653d736d616c6c"
+                    src="https://pbs.twimg.com/media/GIeiSRpWYAAp5Pe?format=png&name=small"
                     alt="Pixel Art"
                   />
                 </div>
@@ -119,7 +119,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://pbs.twimg.com/media/F7umYT3WEAAFEbP?format=jpg&name=small"
+                    src="https://pbs.twimg.com/media/GIeioanWUAAZw03?format=jpg&name=small"
                     alt="Uniqlo-Clone"
                   />
                 </div>
