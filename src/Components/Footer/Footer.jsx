@@ -51,7 +51,7 @@ export const Footer = () => {
         </div>
         <div className="footer-phrase">
           <p>
-            © 2024 Lautaro Rodriguez Collins. 
+            Hecho en React con ayuda de ☕ © 2024 Lautaro Rodriguez Collins. 
           </p>
         </div>
       </div>

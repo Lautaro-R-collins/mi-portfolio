@@ -28,7 +28,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://pbs.twimg.com/media/GIeiSRpWYAAp5Pe?format=png&name=small"
+                    src="https://pbs.twimg.com/media/GIfC0A3WYAAKSeS?format=png&name=small"
                     alt="Pixel Art"
                   />
                 </div>
@@ -36,7 +36,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Pixel Art</h2>
                 <p>
-                  Aplicacion Web para crear Pixel Art donde puedes modificar el tamaño del pixel
+                  Aplicacion Web para crear Pixel Art 
                 </p>
                 <div>
                   <SiHtml5 />
@@ -73,25 +73,24 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://pbs.twimg.com/media/F7ucsbdXEAAguxw?format=jpg&name=small"
+                    src="https://pbs.twimg.com/media/GIfBAhUWgAA9DLN?format=jpg&name=small"
                     alt="Sk-Weather-App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Encuestas</h2>
+                <h2>Lista de tareas</h2>
                 <p>
-                  Generador de encuestas online
+                  App online lista de tareas
                 </p>
                 <div>
-                  <SiMongodb />
-                  <SiExpress />
-                  <FaReact />
-                  <SiNodedotjs />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />  
                 </div>
                 <div>
                   <a
-                    href="asd"
+                    href="https://app-tareas-lista.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -100,7 +99,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Lautaro-R-collins/encuesta-backend.git"
+                    href="https://github.com/Lautaro-R-collins/actividad_lista_tareas"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -164,7 +163,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://pbs.twimg.com/media/F7uprIBWkAEnmbZ?format=jpg&name=small"
+                    src="https://pbs.twimg.com/media/GIfCTX1WIAAeWqQ?format=png&name=small"
                     alt="PulsePlus-Clone"
                   />
                 </div>
@@ -202,6 +201,96 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://pbs.twimg.com/media/GIfEoHDXsAAww5H?format=jpg&name=small"
+                    alt="Sk-Weather-App"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>weather app</h2>
+                <p>
+                  App del tiempo online 
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />  
+                </div>
+                <div>
+                  <a
+                    href="https://lautaro-r-collins.github.io/weather-app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("verpag")} 
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Lautaro-R-collins/weather-app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("vercod")}
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://pbs.twimg.com/media/GIfD35gWsAAyaKu?format=jpg&name=small"
+                    alt="Sk-Weather-App"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Calculador JS</h2>
+                <p>
+                  App calculadora online 
+                </p>
+                <div>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />  
+                </div>
+                <div>
+                  <a
+                    href="https://lautaro-r-collins.github.io/odin-calculator/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("verpag")} 
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Lautaro-R-collins/odin-calculator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("vercod")}
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     <div className="center-button-container">
