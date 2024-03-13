@@ -40,7 +40,7 @@ export const Footer = () => {
               <TwitterIcon />
             </a>
             <a
-              href="https://instagram.com/lautaro.develops?igshid=OGQ5ZDc2ODK2ZA=="
+              href="https://www.instagram.com/lautarodevelops/"
               target="_blank"
               rel="noreferrer"
               className="instagram-icon"

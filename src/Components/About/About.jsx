@@ -46,7 +46,7 @@ export const About = () => {
             <GitHubIcon style={{ fontSize: '1.7rem' }}/>
           </a>
           <a
-            href="https://www.instagram.com/lautaro.develops/"
+            href="https://www.instagram.com/lautarodevelops/"
             aria-label="instagram"
             className="link link--icon"
             target="_blank"
