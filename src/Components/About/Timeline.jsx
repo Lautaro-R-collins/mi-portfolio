@@ -15,12 +15,12 @@ import MenuBookIcon from "@material-ui/icons/MenuBook";
 export const Timeline = () => {
   const [{ themename }] = React.useContext(ThemeContext);
   const [linecolor, setlinecolor] = React.useState(
-    themename === "light" ? "#23283e" : "#fcfcfc"
+    themename === "light" ? "#1e2233" : "#fcfcfc"
   );
    
   React.useEffect(() => {
     if (themename === "dark") {
-      setlinecolor("#23283e");
+      setlinecolor("#1e2233");
     } else {
       setlinecolor("#ffffff");
     }

@@ -12,12 +12,12 @@
   --clr-bg-alt: #ffffff;
   --clr-fg: #555;
   --clr-fg-alt: #333333;
-  --clr-primary:  rgb(23, 47, 99);
+  --clr-primary:  #0f2d5c;
   --shadow: rgba(5, 5, 5, 0.123) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
+  --clr-bg: #1e2233;
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;

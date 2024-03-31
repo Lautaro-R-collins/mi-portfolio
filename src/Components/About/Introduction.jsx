@@ -34,7 +34,7 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 <Trans i18nKey="ing" components={[<span className="different" key="0" />]} />
-              </h4>
+              </h4>      
             </div>
           </div>
         </div>
