@@ -3,6 +3,9 @@ import "./Projects.css";
 import Quoteslide from "./Quoteslide"; 
 import { FaReact } from "react-icons/fa";
 import {
+  SiTailwindcss,
+  SiTypescript,
+  SiNextdotjs,
   SiHtml5,
   SiExpress,
   SiMongodb,
@@ -14,6 +17,7 @@ import { Trans } from 'react-i18next';
 import { useTranslation } from "react-i18next";
 
 
+
 export const Projects = () => {
   const { t } = useTranslation();
   return (
@@ -22,7 +26,56 @@ export const Projects = () => {
         <h2 className="section__title" data-aos="fade-right">
           <Trans i18nKey="proylau" components={[<span className="different" key="0" />]} />
         </h2>
+
         <div className="allProjects">
+
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://pbs.twimg.com/media/GLgdUdlXoAAq22d?format=jpg&name=small"
+                    alt="Meet"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Video call app</h2>
+                <p>
+                You can log in, create meetings, and access features like recording,
+                scheduling meetings,
+                screen sharing, and managing participants.
+                </p>
+                <div>
+                  <SiNextdotjs />
+                  <SiTypescript />
+                  <SiTailwindcss />                 
+                </div>
+                <div>
+                  <a
+                    href="https://meet-app-eta.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      {t("verpag")} 
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Lautaro-R-collins/meet-app.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("vercod")} 
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -36,7 +89,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Pixel Art</h2>
                 <p>
-                  Aplicacion Web para crear Pixel Art 
+                  Aplicacion Web para crear Pixel Art
                 </p>
                 <div>
                   <SiHtml5 />
@@ -111,52 +164,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://pbs.twimg.com/media/GIeioanWUAAZw03?format=jpg&name=small"
-                    alt="Uniqlo-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Sing up Padify</h2>
-                <p>
-                  Formulario de registro responsive Frontend echo con HTML, CSS y JS.
-                </p>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://lautaro-r-collins.github.io/Sing-up/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      {t("verpag")} 
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Lautaro-R-collins/Sing-up.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      {t("vercod")}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -302,9 +309,8 @@ export const Projects = () => {
         <div data-aos="fade-right"><span  className="btns onbt onbt ">{t("vermas")} </span></div>     
         </a>       
        </div>
-       <Quoteslide />
+        <Quoteslide />
     </>   
-    
   );  
 };
 

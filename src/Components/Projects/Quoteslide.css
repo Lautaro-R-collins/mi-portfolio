@@ -10,7 +10,7 @@
     grid-row-gap: 1.25rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
-    max-width: 60rem;
+    max-width: 100%;
     overflow: hidden;
     list-style-type: none;
   }
