@@ -13,27 +13,29 @@ import {
   SiCsharp,
   SiTailwindcss,
   SiMysql,
-  SiFigma
+  SiFigma,
+  SiCss3
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 
-
+// import Marquee from "react-fast-marquee";
 
 export const Techstacks = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title" style={{ marginTop: "2em" }}><Trans i18nKey="teckstacks" components={[<span className="different" key="0" />]} /></h2>
+ 
         <div className="techsection">
           <div>
             <SiHtml5 />
             <h5>HTML</h5>
           </div>
           <div>
-            <DiCss3 />
+            <SiCss3 />
             <h5>CSS</h5>
           </div>
           <div>
@@ -102,6 +104,7 @@ export const Techstacks = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

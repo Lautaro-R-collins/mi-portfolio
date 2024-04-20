@@ -8,11 +8,11 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiHtml5,
+  SiCss3,
   SiExpress,
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { Trans } from 'react-i18next';
 import { useTranslation } from "react-i18next";
@@ -139,7 +139,7 @@ export const Projects = () => {
                 </p>
                 <div>
                   <SiHtml5 />
-                  <DiCss3 />
+                  <SiCss3 />
                   <IoLogoJavascript />                 
                 </div>
                 <div>
@@ -183,7 +183,7 @@ export const Projects = () => {
                   EL juego clasico piedras papel y tijeras echo con JS
                 </p>
                 <div>
-                  <DiCss3 />
+                  <SiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
                 </div>
@@ -228,7 +228,7 @@ export const Projects = () => {
                 </p>
                 <div>
                   <SiHtml5 />
-                  <DiCss3 />
+                  <SiCss3 />
                   <IoLogoJavascript />  
                 </div>
                 <div>
@@ -272,7 +272,7 @@ export const Projects = () => {
                 </p>
                 <div>
                   <SiHtml5 />
-                  <DiCss3 />
+                  <SiCss3 />
                   <IoLogoJavascript />  
                 </div>
                 <div>
