@@ -11,7 +11,7 @@ import {
   SiTypescript,
   SiPython,
   SiCsharp,
-  SiMui,
+  SiTailwindcss,
   SiMysql,
   SiFigma
 } from "react-icons/si";
@@ -19,6 +19,8 @@ import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
+
+
 
 export const Techstacks = () => {
   return (
@@ -59,8 +61,8 @@ export const Techstacks = () => {
             <h5>Bootstrap</h5>
           </div>
           <div>
-            <SiMui />
-            <h5>MUI</h5>
+            <SiTailwindcss />
+            <h5>Tailwind</h5>
           </div>
           <div>
             <FaNodeJs />

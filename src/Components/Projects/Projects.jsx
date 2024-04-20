@@ -3,6 +3,7 @@ import "./Projects.css";
 import Quoteslide from "./Quoteslide"; 
 import { FaReact } from "react-icons/fa";
 import {
+  SiVite,
   SiTailwindcss,
   SiTypescript,
   SiNextdotjs,
@@ -75,6 +76,51 @@ export const Projects = () => {
             </div>
           </div>
 
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://pbs.twimg.com/media/GLjqUteXwAA9E-1?format=jpg&name=small"
+                    alt="Planify"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>PlaniFy</h2>
+                <p>
+                An app akin to Trello, featuring drag-and-drop functionality for organizing tasks on customizable boards + Pomodoro timer.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiVite />
+                  <SiTypescript />                 
+                  <SiTailwindcss /> 
+                </div>
+                <div>
+                  <a
+                    href="https://planify-1tu6.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("verpag")} 
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Lautaro-R-collins/PlaniFy-organization-app.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      {t("vercod")}
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -120,50 +166,6 @@ export const Projects = () => {
             </div>
           </div>
           
-
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://pbs.twimg.com/media/GIfBAhUWgAA9DLN?format=jpg&name=small"
-                    alt="Sk-Weather-App"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Lista de tareas</h2>
-                <p>
-                  App online lista de tareas
-                </p>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />  
-                </div>
-                <div>
-                  <a
-                    href="https://app-tareas-lista.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      {t("verpag")} 
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Lautaro-R-collins/actividad_lista_tareas"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      {t("vercod")}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
