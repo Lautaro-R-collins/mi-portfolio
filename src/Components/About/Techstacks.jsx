@@ -14,7 +14,8 @@ import {
   SiTailwindcss,
   SiMysql,
   SiFigma,
-  SiCss3
+  SiCss3,
+  SiAstro
 } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -59,6 +60,10 @@ export const Techstacks = () => {
             <h5>Angular</h5>
           </div>
           <div>
+            <SiAstro />
+            <h5>Astro</h5>
+          </div>
+          <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
@@ -97,10 +102,6 @@ export const Techstacks = () => {
           <div>
             <SiGit />
             <h5>Git</h5>
-          </div>
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
           </div>
         </div>
       </div>
