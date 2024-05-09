@@ -15,6 +15,7 @@ import {
   SiMysql,
   SiFigma,
   SiCss3,
+  SiPostgresql,
   SiAstro
 } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
@@ -88,8 +89,8 @@ export const Techstacks = () => {
             <h5>Firebase</h5>
           </div>
           <div>
-            <SiMysql />
-            <h5>Mysql</h5>
+            <SiPostgresql />
+            <h5>Postgresql</h5>
           </div>
           <div>
             <SiPython />

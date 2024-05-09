@@ -285,15 +285,6 @@ export const Projects = () => {
                       {t("verpag")} 
                     </span>
                   </a>
-                  <a
-                    href="https://github.com/Lautaro-R-collins/odin-calculator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      {t("vercod")}
-                    </span>
-                  </a>
                 </div>
               </div>
             </div>
