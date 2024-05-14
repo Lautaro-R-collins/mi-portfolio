@@ -33,6 +33,44 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor} layout="1-column-left">
 
+
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"MAY 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              borderRadius: `20px`,
+              backgroundColor: `var(--clr-bg)`,
+
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "10px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+            >
+              <Trans i18nKey="linvegna" components={[<span className="different" key="0" />]} />
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+            >
+              <Trans i18nKey="Vegna.Tech" components={[<span className="different" key="0" />]} />
+            </h4>
+            <p>
+            <Trans i18nKey="vegnaskils" components={[<span className="different" key="0" />]} />
+            </p>
+          </VerticalTimelineElement>
+
+
+
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"August 2023 - Present"}
@@ -132,7 +170,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            date={"2019 - 2022"}
+            date={"2020 - 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               borderRadius: `20px`,
@@ -165,7 +203,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            date={"2015 - 2017"}
+            date={"2018 - 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               borderRadius: `20px`,

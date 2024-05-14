@@ -40,7 +40,6 @@ i18n.use(initReactI18next).init({
         "lin7": "Desarrollador de Software Freelancer",
         "lin07": "Autónomo",
         "lin17": "Diseño UX/UI - Frontend - Backend",
-   
         "teckstacks": "<0>Tecnologías</0> y herramientas",
         "proylau": "MIS <0>PROYECTOS</0>",
         "cita1": "- Matemático, Lógico y padre de la ciencia de la computación.",
@@ -65,6 +64,8 @@ i18n.use(initReactI18next).init({
         "vercod": "Ver Codigo",
         "vermas": "ver más en mi github",
         "massag": "Mensaje :",
+        "linvegna": "Frontend Web Developer",
+        "vegnaskils": "React - Astro - JavaScript - TypeScript - CSS - Bootstrap - Tailwind",
       },
     },
     en: {
@@ -124,6 +125,8 @@ i18n.use(initReactI18next).init({
         "vercod": "See Code",
         "vermas": "see more on my github",
         "massag": "Message :",
+        "linvegna": "Frontend Web Developer",
+        "vegnaskils": "React - Astro - JavaScript - TypeScript - CSS - Bootstrap - Tailwind",
       },
     },
   },

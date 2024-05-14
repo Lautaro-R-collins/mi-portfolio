@@ -98,7 +98,7 @@ export const Header = () => {
           
           <button
             type="button"
-            onClick={() => window.open("https://drive.google.com/file/d/1UWZbCOywePBsSWGv1Hq1rx89Ib7MfzDM/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1-UxXZ8lHrkHE-knW6svPlXxumbTsyvuD/view?usp=sharing", "_blank")}
             className="btn btn--icon nav__cv"
             aria-label="open CV"
             title="Ver mi CV"
