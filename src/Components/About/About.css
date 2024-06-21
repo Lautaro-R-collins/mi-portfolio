@@ -6,6 +6,7 @@
 .about__name {
   color: var(--clr-primary);
 }
+
 .about > :nth-child(2) {
   margin-top: 1.2em;
   font-size: 2rem;
@@ -49,10 +50,8 @@
   color: var(--clr-bg);
 }
 
-
-
 @media (max-width: 600px) {
-  .mobileHead{
+  .mobileHead {
     text-align: center;
   }
   .app .about {
