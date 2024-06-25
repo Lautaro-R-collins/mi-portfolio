@@ -10,6 +10,8 @@ const ContactForm = () => {
     message: "",
   });
 
+  const { t } = useTranslation();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -17,15 +19,33 @@ const ContactForm = () => {
       [name]: value,
     });
   };
-  const { t } = useTranslation();
 
-  //action="https://formspree.io/f/xbjvppwk" method="POST"
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    // Validar que todos los campos estén llenos
+    if (formData.name && formData.email && formData.message) {
+      // Mostrar alerta de confirmación
+      alert(t("Thanks for your message!"));
+      
+      // Enviar el formulario
+      e.target.submit();
+    } else {
+      // Mostrar mensaje de error si faltan campos por llenar
+      alert(t("pleaseFillAllFields"));
+    }
+  };
+
   return (
     <div className="contact-form">
-      <h2 className="section__title" > <Trans i18nKey="talks" components={[<span className="about__name" key="0" />]} /> </h2>
-      <form  action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST">
+      <h2 className="section__title">
+        <Trans i18nKey="talks" components={[<span className="about__name" key="0" />]} />
+      </h2>
+      <form action="https://formsubmit.co/lautarodevelops@gmail.com" method="POST" onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name"><Trans i18nKey="name" components={[<span className="different" key="0" />]} /></label>
+          <label htmlFor="name">
+            <Trans i18nKey="name" components={[<span className="different" key="0" />]} />
+          </label>
           <input
             type="text"
             id="name"
@@ -37,7 +57,9 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email"><Trans i18nKey="mailt" components={[<span className="different" key="0" />]} /></label>
+          <label htmlFor="email">
+            <Trans i18nKey="mailt" components={[<span className="different" key="0" />]} />
+          </label>
           <input
             type="email"
             id="email"
@@ -49,7 +71,9 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="message"><Trans i18nKey="massag" components={[<span className="different" key="0" />]} /></label>
+          <label htmlFor="message">
+            <Trans i18nKey="massag" components={[<span className="different" key="0" />]} />
+          </label>
           <textarea
             id="message"
             name="message"
@@ -57,13 +81,12 @@ const ContactForm = () => {
             onChange={handleChange}
             rows="4"
             required
-            placeholder={t("sendmes")} 
+            placeholder={t("sendmes")}
           ></textarea>
         </div>
-        <button type="submit"> {t("sendm")} </button>
-        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/#contact" ></input>
-        <input type="hidden" name="_captcha" value="false" ></input>
-        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/#contact/thanks.html"></input>
+        <button type="submit">{t("sendm")}</button>
+        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/"></input>
+        <input type="hidden" name="_captcha" value="false"></input>
       </form>
     </div>
   );
