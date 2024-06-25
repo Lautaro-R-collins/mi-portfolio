@@ -85,8 +85,8 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <button type="submit">{t("sendm")}</button>
-        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com/"></input>
-        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_next" value="https://lautaro-rodriguez.onrender.com" ></input>
+        <input type="hidden" name="_captcha" value="false" ></input>
       </form>
     </div>
   );
