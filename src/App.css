@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 .app {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
-  
 }
 
 .light {
@@ -145,8 +145,32 @@ main {
   transform: translateY(-5px);
 }
 
+/* Webkit Browsers */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000207;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #69c7c7; 
+  border-radius: 10px;
+  border: 3px solid #000207;
+  min-height: 150px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+
 @media (max-width: 600px) {
   .section {
     margin-top: 4em;
   }
 }
+
+
+
