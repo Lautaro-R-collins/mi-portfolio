@@ -72,15 +72,7 @@ export const About = () => {
           >
             <EmailIcon style={{ fontSize: '1.7rem' }}/>
           </a>
-          <a
-            href="tel:+5492616908835"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone"
-            className="link link--icon"
-          >
-            <PhoneIcon style={{ fontSize: '1.7rem' }}/>
-          </a>
+
         </div>
 
         <button

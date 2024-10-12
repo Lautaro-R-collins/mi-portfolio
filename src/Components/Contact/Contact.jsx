@@ -52,9 +52,6 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+5492616908835" target="_blank" rel="noreferrer">
-              <BsFillTelephoneFill className="phone" />
-            </a>
             <a
               href="https://github.com/Lautaro-R-collins"
               target="_blank"
@@ -85,14 +82,6 @@ export const Contact = () => {
               <span>
                 <p>lautarodevelops@gmail.com</p>
               </span>
-            </div>
-            <div className="iconsCont">
-              <span>
-                <BsFillTelephoneFill className="phone" />
-              </span>
-              <span>
-                <p>+54 9 261 690-8835</p>
-              </span>             
             </div>
           </div>
           
